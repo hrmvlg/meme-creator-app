@@ -1,0 +1,14 @@
+.container{
+    border: 1px solid gray;
+    width: 1000px;
+    margin-inline: auto;
+    padding: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 50px;
+
+    font-size: 20px;
+    font-family: 'Arial';
+}

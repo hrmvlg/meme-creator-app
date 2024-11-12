@@ -1,0 +1,35 @@
+.edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    row-gap: 30px;
+
+    &__image {
+        border: 1px solid gray;
+        width: 500px;
+        height: 500px;
+
+        position: relative;
+    }
+
+    &__no-image-text {
+        background-color: rgb(128, 128, 128, 0.3);
+        height: 32px;
+        width: 200px;
+        text-align: center;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 10px;
+    }
+}
